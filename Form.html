@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+     <link rel="stylesheet" href="css/style.css">
+     <script src="/Assignment_One/js/app.js"  ></script>
+
+</head>
+<body>
+
+    <div class="head-div">
+
+        <div class="h-div">
+            <img src="images/MgKafe_logo.png" alt="">
+            <a href="index.html"> Welcome to MG's Kafe </a>
+        </div>
+        <div class="h-div">
+            <p> Submit your attempt... 🌸 </p>
+        </div>
+        <div class="h-div-search">
+            <a href="Recipes.html" >
+                <button> Recipes 🔍︎</button>
+            </a> 
+        </div>
+    
+  
+    </div>
+
+    <br>
+
+    <nav>
+
+        <a href="index.html"> Home </a>
+        <a href="Recipes.html"> Recipes </a>
+        <a href="Ingredients.html"> Ingredients </a>
+        <a href="About.html"> About </a>
+
+    </nav>
+
+    <div class="main-content">
+
+        <div class="break"></div>
+
+        <form id="form" action="index.html" method="GET">
+            <div class="card">
+                <h2>Submit your details below</h2>
+                <p>
+                    <h3> Name </h3>
+                    <input type="text" id="txtName" class="txtBox" placeholder="First/Last">
+                    <h3> Email </h3>
+                    <input type="text" id="txtEmail" class="txtBox" placeholder="John@gmail.com">
+                    <h3> Phone Number </h3>
+                    <input type="number" id="txtPhone" class="txtBox" placeholder="xxx-000-0000">
+                    <h3> Country </h3>
+                    <input type="text" id="txtCountry" class="txtBox" placeholder="Jamaica">
+                </p>
+
+                <div class="form-buttons">
+                    <button type="submit" onclick="validateForm()">Submit</button>
+                </div>
+
+                <div id="error" style="color: rgb(221, 52, 94);"></div>
+
+            </div>
+        </form>
+
+        <div class="break"></div>
+
+
+    </div>
+
+    <footer>
+    <div class="column-display">
+            
+            <div> <h3>Home</h3>
+                <p>
+                    <a href="Recipes.html" style="color: white;"> Recipes </a>
+                    <a href="Ingredients.html" style="color: white;"> Ingredients </a>
+                      
+                </p>
+            
+            </div>
+            
+            <div> <h3>Contact</h3>
+                <a href="About.html" style="color: white;"> About </a>
+            </div>
+
+        </div>
+
+        <div><img src="images/MgKafe_logo.png" alt=""></div>
+        <p>&copy; 2026 MG's Kafe. All rights reserved.</p>
+        
+
+    </footer>
+
+   <script src="https://jsdelivr.net"></script>
+    
+</body>
+</html>
